@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ceci est mon premier site web crée lors de ma formation,mes premiers formulaires !"
+    />
+    <title>Mon formulaires</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Sora:wght@500&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="/css/formulaire.css">
+  </head>
+<body>
+
+<header> 
+  <div> </div>
+<nav> 
+  <ul>
+      <li>
+          <a href="index.html" title="Rejoindre la page principale du site.">Home</a>
+        </li>
+      <li>
+          <a href="javascript.html" title="Javascript">Javascript</a>
+        </li>
+      <li>
+          <a href="tableaux.html" title="Tableaux">Tableaux</a>
+        </li>
+      <li>
+          <a href="formulaire.html">Formulaire</a>
+        </li>
+      <li>
+          <a href="https://interface3namur.be/" title="Interface3Namur" target="_blank">Interface 3</a>
+        </li>
+  </ul>
+</nav>
+</header>
+<main>  
+    <h1>Formulaires</h1>
+
+
+    <section>  
+
+       <article>
+         <h3>La balise input</h3>
+
+         <input type="text">
+         <input type="color">
+         <input type="file">
+         <input type="checkbox">
+         <input type="date">
+         <input type="email">
+         <input type="range">
+         <input type="password">
+       </article>
+
+       <article>
+
+        <h3>Mise en place et en forme d'un formulaire</h3>
+
+        <form action="" method="get">
+          <!--  Crée une section autour d'une partie d'un formulaire -->
+            <fieldset> 
+             
+          
+            <legend>Connexion</legend>
+            <label for="user_name">Nom d'utilisateur :</label>
+          <input type="text" name="user_name" id="user_name">
+
+          <label for="user_pw">Mot de passe :</label>
+          <input type="text" name="user_pw" id="user_pw">
+
+        </fieldset>
+          <input type="submit" value="Envoyer !">
+
+         
+         
+
+        </form>
+
+
+       </article>
+
+
+
+       <article>
+          <h3> Utilisation du fieldset</h3>
+
+          <form action=""> 
+            <fieldset>
+              <legend>Vos coordonneés</legend>
+              
+              <label for="userFirstName">Prénom</label>
+              <input type="text" name="userFirstName" id="userFirstName">
+              
+              <label for="userLastNAme">Nom de famille</label>
+              <input type="text" name="userLastNAme" id="userLastNAme">
+
+              <label for="usermail">Votre adresse e-mail</label>
+              <input type="mail" name="usermail" id="usermail">
+
+              
+
+            </fieldset>
+            
+            
+            <fieldset>
+              <legend>Votre Message</legend>
+              <label for="userMsg">Entrez votre message</label>
+
+              <input type="textarea" name="userMsg" id="userMsg">
+
+
+
+            </fieldset>
+
+
+            <input type="submit" value="Envoyer !">
+
+
+          </form>
+
+
+       </article>
+
+    </section>
+</main>
+
+    <footer>
+        
+        <h2>Informations</h2>
+        <p>Site web réalisé dans le cadre de la formation</p>
+        <p>  <strong>Dev Fullstack JS </strong> </p>
+        <p>  <strong>Alain Fustin</strong>&copy;2022 </p>
+
+    </footer>
+    
+
+
+ 
+</body>
+</html>

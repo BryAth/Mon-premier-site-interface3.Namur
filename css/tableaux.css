@@ -1,0 +1,70 @@
+/* Mise en forme général d'un tableau */
+
+tr:nth-child(even){
+    background-color:rgb(187, 181, 181);
+}
+
+table{
+    width: 100%;
+    empty-cells: hide;
+    caption-side: top;
+  
+    
+  
+}
+
+
+td,th{
+    border:1px solid black;
+    text-align:center;
+    padding: 7px;
+}
+
+
+th,td:hover{
+    background-color: #214567;
+    color:white;
+}
+
+
+
+/* Mise en forme de table1 (Tableau numéro 3 dans la liste ! */
+.table1 th{
+    width: 25%;
+}
+
+tr:hover{
+    background-color:rgba(255, 166, 0, 0.644);
+}
+/* Mise en forme table2 (Tableau numéro 4 dans la liste ! ) */
+
+.table2
+{
+    border-collapse: collapse;
+    
+}
+
+/* Mise en forme table3 */
+
+.table3{
+border-spacing: 0;
+
+}
+
+.table3 td{
+    border: .5px solid black;
+}
+
+caption{
+    /* border: 1px solid black; */
+    
+    color:#214567;
+    font-size:.8em;
+    font-style: italic;
+}
+
+
+
+.vacances{
+    background-color: red;
+}
